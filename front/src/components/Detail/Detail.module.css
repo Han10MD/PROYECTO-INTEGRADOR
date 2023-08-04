@@ -1,0 +1,44 @@
+.container {
+    left: 600px;
+    top: 30px;
+    position: relative;;
+    width: 30vw;
+    height: 40vw;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(128, 17, 232, 0.614);
+    padding: 0 1rem 6rem 1rem;
+
+}
+
+.main {
+    font-family: 'Blinker', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    top: 50px;
+    position: relative;
+    border-radius: 60%;
+}
+
+.character {
+    top: 50px;
+    position: relative;
+    background: #89e23bcc;
+    box-shadow: 0 10px 52px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 8px solid rgba(11, 42, 180, 0.446);
+    width: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}

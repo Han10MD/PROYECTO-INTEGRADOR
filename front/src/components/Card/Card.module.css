@@ -1,0 +1,103 @@
+.container {
+    top: 30px;
+    position: relative;
+    width: 21vw;
+    height: 27vw;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(128, 17, 232, 0.614);
+    padding: 0 1rem 6rem 1rem;
+
+  }
+  
+  .main {
+    font-family: 'Blinker', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image {
+    top: 15px;
+    position: relative;
+    border-radius: 50%;
+  }
+
+  .fav {
+    right: 150px;
+    bottom: 0px;
+    position: relative;
+    padding: 1rem 2rem 3rem 4rem;
+    color: white;
+    background-color:green;
+    border: none;
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .button {
+    left: 150px;
+    bottom: 40px;
+    position: relative;
+    padding: 1rem 2rem 3rem 4rem;
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .button:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+  
+  .character {
+    bottom: 40px;
+    position: relative;
+    background: #89e23bcc;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+  }
+  
+  .name{
+    color: black;
+    bottom: 40px;
+    position: relative;
+    width: 12vw;
+    height: 2vw;
+    border-radius: 10px;
+    background-color: #a6cccc;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
